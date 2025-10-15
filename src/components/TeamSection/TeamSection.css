@@ -1,0 +1,36 @@
+.team-section {
+    background-color: #444444;
+    color: #ffffff;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+.team-section h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.team-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    justify-items: center;
+    align-items: start;
+}
+
+.team-section::after {
+    content: "";
+    display: block;
+    height: 40px;
+}
+
