@@ -5,7 +5,7 @@ const Footer = () => {
     { name: "Mariia Khorunzha", github: "https://github.com/Impe11e" },
     { name: "Anna Kuts", github: "https://github.com/AnnKuts" },
     { name: "Vladyslav Mykhailov", github: "https://github.com/taitami" },
-    { name: "Ivanna Malashchuk", github: "https://github.com/Impe11e" },
+    { name: "Ivanna Malashchuk", github: "https://github.com/ivannamal" },
   ];
 
   return (
