@@ -1,11 +1,15 @@
 import "./Header.scss";
+import logo from "../../../assets/img.png";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header__container">
         <div className="header__logo">
-          <a href="#home">HuHz Team</a>
+          <a href="#home">
+            <img src={logo} alt="HuHz Team" />
+            <span>NuHz</span>
+          </a>
         </div>
         <nav className="header__nav">
           <ul className="header__nav-list">
